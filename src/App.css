@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Work Sans", sans-serif;
+}
+*{
+    margin:0;
+}
+button{
+    border-radius: 4px;
+ all:unset;
+ padding : 6px 16px;
+ background-color:rgb(218, 17, 17);
+ color: white;
+ height: 30px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    height:72 px;
+}
+nav ul{
+    display :flex;
+    list-style:none;
+    gap:20px;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.hero{
+    display:flex;
+align-items:center;
+justify-content: center;
+height: calc(100vh - 72px);
+}
+.hero h1{
+    font-weight: 750;
+    font-size:90px;
+    line-height:100px;
+}
+.hero p{
+    font-weight:600;
+    color:var(--gray);
+    max-width: 500px;
+}
+.hero-btn{
+    display:flex;
+    gap:40px;
+    border-radius: 10px;
+}
+.brand-logos{
+    display:flex;
+    gap:16px;
+}
+.hero-content{
+    display:flex;
+    flex-direction:column;
+    gap:35px;
+}
